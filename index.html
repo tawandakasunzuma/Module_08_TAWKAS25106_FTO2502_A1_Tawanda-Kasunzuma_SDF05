@@ -11,22 +11,26 @@
     />
   </head>
   <body>
-    <footer class="bg-[#659f8f] text-[#313131] p-12 min-h-screen rounded-xl">
-      <div class="border-4 border-gray-200 sm:grid sm:grid-col-2 sm:grid-col-2">
-        <div class="sm:col-span-2">
-          <div class="border-4 border-red-500">
+    <footer
+      class="bg-[#659f8f] text-[#313131] p-12 sm:py-24 lg:py-16 lg:px-36 max-h-full rounded-lg"
+    >
+      <div
+        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-rows-1 lg:grid-cols-4"
+      >
+        <div class="sm:col-span-2 lg:col-span-2">
+          <div>
             <h1 class="text-lg font-semibold">
               Subscribe to our newsletter for updates.
             </h1>
-            <div class="flex flex-col my-6 sm:flex-row sm: sm:gap-4">
+            <div class="flex flex-col my-6 sm:flex-row sm:gap-4 lg:gap-3">
               <input
-                class="px-6 sm:px-4 py-2.5 text-sm rounded-md mb-3 max-w-80"
+                class="px-6 sm:px-4 lg:pr-0 lg:pl-4 py-2.5 lg:py-1.5 text-sm rounded-md mb-3 max-w-80"
                 id="email"
                 type="text"
                 placeholder="Email Address"
               />
               <button
-                class="bg-[#d86943] px-6 py-2.5 rounded-md text-white text-sm sm:h-10 font-semibold tracking-wider max-w-80 hover:bg-[#e75f34] transition-all ease-in-out duration-700"
+                class="flex justify-center items-center bg-[#d86943] px-6 lg:px-5 py-2.5 rounded-md text-white text-sm lg:text-xs sm:h-10 lg:h-9 font-semibold tracking-wider max-w-80 hover:bg-[#e75f32] focus:bg-[#e75f32] hover:-translate-y-1 focus:-translate-y-1 transition-all ease duration-1000"
               >
                 Subscribe
               </button>
@@ -34,9 +38,7 @@
           </div>
         </div>
 
-        <div
-          class="mb-4 text-sm border-4 border-yellow-500 sm:col-span-1 sm:mb-0"
-        >
+        <div class="mb-4 text-sm sm:col-span-1 sm:mb-0 lg:col-span-1">
           <p class="font-semibold mb-3">Quick Link</p>
           <div class="flex flex-col leading-7">
             <a href="#">Home</a>
@@ -45,7 +47,7 @@
           </div>
         </div>
 
-        <div class="text-sm border-4 border-lime-500 sm:col-span-1 sm:mb-0">
+        <div class="text-sm sm:col-span-1 sm:mb-0 lg:col-span-1">
           <p class="font-semibold mb-3">Technologies</p>
           <div class="flex flex-col leading-7">
             <a href="#">HTML</a>
@@ -62,7 +64,7 @@
           <img
             src="https://codespace-assets.global.ssl.fastly.net/wp/assets/website/codespace-primary-logo-light.svg"
             alt="CodeSpace logo"
-            class="h-7 w-auto"
+            class="h-7 lg:h-6 w-auto"
           />
         </a>
       </div>
