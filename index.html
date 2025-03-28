@@ -12,21 +12,21 @@
   </head>
   <body>
     <footer class="bg-[#659f8f] text-[#313131] p-12 min-h-screen rounded-xl">
-      <div>
-        <div>
-          <div>
+      <div class="border-4 border-gray-200 sm:grid sm:grid-col-2 sm:grid-col-2">
+        <div class="sm:col-span-2">
+          <div class="border-4 border-red-500">
             <h1 class="text-lg font-semibold">
               Subscribe to our newsletter for updates.
             </h1>
-            <div class="flex flex-col my-6">
+            <div class="flex flex-col my-6 sm:flex-row sm: sm:gap-4">
               <input
-                class="px-6 py-2.5 text-sm rounded-lg mb-3 max-w-60"
+                class="px-6 sm:px-4 py-2.5 text-sm rounded-md mb-3 max-w-80"
                 id="email"
                 type="text"
                 placeholder="Email Address"
               />
               <button
-                class="bg-[#d86943] px-6 py-2.5 rounded-lg text-white text-xs font-semibold tracking-wider max-w-60 hover:bg-[#e75f34] transition-all ease-in-out duration-700"
+                class="bg-[#d86943] px-6 py-2.5 rounded-md text-white text-sm sm:h-10 font-semibold tracking-wider max-w-80 hover:bg-[#e75f34] transition-all ease-in-out duration-700"
               >
                 Subscribe
               </button>
@@ -34,7 +34,9 @@
           </div>
         </div>
 
-        <div class="mb-4 text-sm">
+        <div
+          class="mb-4 text-sm border-4 border-yellow-500 sm:col-span-1 sm:mb-0"
+        >
           <p class="font-semibold mb-3">Quick Link</p>
           <div class="flex flex-col leading-7">
             <a href="#">Home</a>
@@ -43,7 +45,7 @@
           </div>
         </div>
 
-        <div class="mb-4 text-sm">
+        <div class="text-sm border-4 border-lime-500 sm:col-span-1 sm:mb-0">
           <p class="font-semibold mb-3">Technologies</p>
           <div class="flex flex-col leading-7">
             <a href="#">HTML</a>
